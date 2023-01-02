@@ -8,7 +8,8 @@ The motivation for this project was to create a portfolio to showcase my work an
 To view you project yyou can use the link above. The site is a one page website with quick access to each section through the navigation bar. 
 
 ## Usage
-![alt text](../Bootstrap-Portfolio/assets/images/portfolio-screenshot.png)
+
+![portfolio-screenshot](https://user-images.githubusercontent.com/118432326/210277464-92e080a8-1929-4ccf-9cba-6f10abb6a67e.png)
 
 
 ## Credits
