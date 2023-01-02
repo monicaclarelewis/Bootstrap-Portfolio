@@ -23,7 +23,7 @@ h1 {
     background-image: url(../Bootstrap-Portfolio/assets/images/jumbotron.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(100vh - 25px);
+    min-height: 650px;
     display: flex;
     align-items: center;
     justify-content: center; 
