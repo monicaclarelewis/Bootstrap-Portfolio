@@ -1,0 +1,124 @@
+:root {
+    --bars: rgb(154, 152, 180);
+  }
+
+.card {
+    border: none !important;
+}
+
+/*Navbar*/
+.navMain {
+    background-color:var(--bars)!important;
+}
+
+h1 {
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+/*Jumbotron*/
+#banner {
+    background-image: url(../assets/images/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#jumboText {
+    text-align: center;
+    font-family:monospace;
+}
+
+/*Work*/
+.workCard {
+    padding: 30px;
+}
+
+.workButton {
+    background-color: var(--bars);
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%
+}
+
+.workButton:hover{
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    background-color:gray;
+  }
+
+  
+h4 {
+    text-align: center;
+}
+
+.workText {
+text-align: center;
+}
+
+
+/*Skills*/
+
+h5 {
+    text-align: center;
+}
+
+#HTML {
+    background-color:rgb(211, 127, 127);
+}
+
+#CSS {
+    background-color: rgb(123, 163, 238);
+}
+
+#Bootstrap {
+    background-color:rgb(170, 148, 214);
+}
+
+#JS {
+    background-color: rgb(246, 221, 158);
+}
+
+#Github {
+    background-color: rgb(168, 167, 167);
+}
+
+#API {
+    background-color: rgb(155, 214, 178);
+}
+
+/*About me*/
+#me {
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+h6 {
+    font-size: 25px;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  font-size: 35px;
+  background-color:var(--bars)
+}
+
+.socialLink {
+    margin: 50px;
+}
+
+a:hover {
+    color: white;
+  }
