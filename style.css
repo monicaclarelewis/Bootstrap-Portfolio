@@ -20,7 +20,7 @@ h1 {
 
 /*Jumbotron*/
 #banner {
-    background-image: url(assets/images/jumbotron.jpg);
+    background-image: url(../Bootstrap-Portfolio/assets/images/jumbotron.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
